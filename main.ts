@@ -8,12 +8,12 @@
 // equity per trade, no new trades near the end of the window.
 //
 // Entry (all three must hold on the same bar):
-//   (a) the close is at least 180 bps below the close 60 bars ago,
+//   (a) the close is at least 150 bps below the close 60 bars ago,
 //   (b) the close is at least 80 bps below the 60-bar EMA of closes,
 //   (c) the drop has flattened: the 5-bar return is at or above -30 bps.
 // Exits (whole position, whichever comes first):
-//   take profit +350 bps, stop loss -155 bps, trailing stop that arms at
-//   +150 bps and sells on an 80 bps give-back from peak profit, max hold
+//   take profit +300 bps, stop loss -150 bps, trailing stop that arms at
+//   +150 bps and sells on a 25 bps give-back from peak profit, max hold
 //   150 bars. After any filled sell, wait 10 bars before buying again.
 // No new positions once 1290 scored bars have passed (last ~150 bars).
 
