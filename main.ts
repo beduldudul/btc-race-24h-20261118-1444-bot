@@ -35,7 +35,7 @@ const LOOKBACK_5 = 5;
 const TAKE_PROFIT_BPS = 300n;
 const STOP_LOSS_BPS = 150n;
 const TRAIL_ARM_BPS = 150n;
-const TRAIL_GIVEBACK_BPS = 60n;
+const TRAIL_GIVEBACK_BPS = 40n;
 const MAX_HOLD_BARS = 150;
 const COOLDOWN_BARS = 10;
 
