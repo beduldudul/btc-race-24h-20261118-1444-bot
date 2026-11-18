@@ -32,8 +32,8 @@ const LOOKBACK_60 = 60;
 const LOOKBACK_5 = 5;
 
 // Exits (basis points / bars).
-const TAKE_PROFIT_BPS = 350n;
-const STOP_LOSS_BPS = 155n;
+const TAKE_PROFIT_BPS = 300n;
+const STOP_LOSS_BPS = 150n;
 const TRAIL_ARM_BPS = 150n;
 const TRAIL_GIVEBACK_BPS = 80n;
 const MAX_HOLD_BARS = 150;
