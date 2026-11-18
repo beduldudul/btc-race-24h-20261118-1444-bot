@@ -24,7 +24,7 @@ const SYMBOL = "CBBTC";
 const BPS = 10_000n;
 
 // Entry thresholds (basis points).
-const DIP_60_BPS = 200n; // (a) 60-bar fall must be at least this deep
+const DIP_60_BPS = 150n; // (a) 60-bar fall must be at least this deep
 const BELOW_EMA_BPS = 80n; // (b) close must be at least this far below the EMA
 const FLAT_5_BPS = 30n; // (c) 5-bar return must be at or above -this
 const EMA_LEN = 60n;
